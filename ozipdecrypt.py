@@ -9,7 +9,7 @@ Options:
     Mode 1 for regular ozip, Mode 2 for CPH1803/CPH1909 [default: 1]
 """
 
-from docopt import docopt
+import docopt
 args = docopt(__doc__, version='1.2')
 
 
